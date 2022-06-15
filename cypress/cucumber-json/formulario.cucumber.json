@@ -1,0 +1,37 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Formulário",
+    "line": 2,
+    "id": "formulário",
+    "tags": [],
+    "uri": "formulario.feature",
+    "elements": [
+      {
+        "id": "formulário;novo-usuário",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Novo usuário",
+        "tags": [
+          {
+            "name": "@Positive",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que eu abro a pagina",
+            "result": {
+              "status": "passed",
+              "duration": 3806000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

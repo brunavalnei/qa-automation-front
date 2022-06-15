@@ -1,0 +1,37 @@
+{
+  "name": "qa-automation-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "faker-br": "^0.4.1",
+    "validation-br": "^1.4.0"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.7",
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/step_defitinions/",
+    "cucumberJson": {
+      "generate": true,
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "scripts": {
+    "cy:open": "cypress open --config-file cypress.json"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Bruna Valnei",
+  "license": "ISC",
+  "description": "Automação WEB utilizando cypress e cucumber"
+}
